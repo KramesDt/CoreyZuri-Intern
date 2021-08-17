@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/bkg3.jfif) no-repeat;
+    background-size: cover;
+};
+
+.box h1{
+    margin: 0;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: rgb(186, 217, 238);
+}
+
+.box{
+    width: 600px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
+    border-radius: 50px;
+}
+
+.box img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+};
+
+.box p{
+    text-align: justify;
+    
+}
+
+.box a{
+    color: rgb(186, 217, 238);
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.tutorial li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.tutorial li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.tutorial li a:hover{
+    color: #b9b9b9;
+  }
+
+.tutorial{
+    width: 1200px;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    border-radius: 50px;
+    /* border-radius: 50px; */
+}
+
+.icons{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    fill: white;
+}
